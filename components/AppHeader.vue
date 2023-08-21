@@ -1,15 +1,19 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">財務会計</a>
+        <nuxt-link to="/">
+          <img src="/img/logo.png" width="100" height="auto" class="img-fluid"/>
+        </nuxt-link>
+        <nuxt-link to="/">
+          <a class="navbar-brand" href="#">財務会計</a>
+        </nuxt-link>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">ホーム</a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <nuxt-link to="/index" >ホーム</nuxt-link>
+              <nuxt-link to="/" >ホーム</nuxt-link>
             </li>
             <li class="nav-item">
               <nuxt-link to="/link" >リンク</nuxt-link>
