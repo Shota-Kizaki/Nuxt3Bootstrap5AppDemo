@@ -1,0 +1,1 @@
+export const useName = () => useState<string>('Name', () => 'moja')
